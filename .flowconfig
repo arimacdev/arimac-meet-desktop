@@ -1,0 +1,15 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/@atlaskit/.*/*.js.flow
+<PROJECT_ROOT>/node_modules/redux-persist/.*/*.js.flow
+<PROJECT_ROOT>/build/.*
+<PROJECT_ROOT>/dist/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
