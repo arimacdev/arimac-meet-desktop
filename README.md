@@ -3,9 +3,7 @@
 
 This is the pre-built desktop application for Arimac Meet built with Electron. The screenshots of the live app are as follows:
 
-![](https://live.staticflickr.com/65535/50938452541_3beed92817_b.jpg)
 
-![](https://live.staticflickr.com/65535/50938452506_5e4ab191b1_b.jpg)
 
   
 ## Features
