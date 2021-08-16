@@ -4,7 +4,7 @@ This is the desktop application, we are developing for Arimac Meet built with El
 
 The screenshots of the live app are as follows:
 
-<img src="https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/1.jpeg" height="300"> <img src="https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/2.jpeg" height="300"> 
+<img src="https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/1.jpeg" height="325"> <img src="https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/2.jpeg" height="325"> 
 
   
 ## Features
