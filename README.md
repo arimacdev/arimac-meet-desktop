@@ -1,11 +1,10 @@
-
 # Arimac Meet Desktop Application
 
-This is the desktop application for Arimac Meet built with Electron.  Currently we have released application versions for both Windows and Linux. The screenshots of the live app are as follows:
+This is the desktop application, we are developing for Arimac Meet built with Electron.  Currently we have released application versions for both Windows and Linux. The macOS build will be released soon.
 
-![](https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/1.jpeg)
+The screenshots of the live app are as follows:
 
-![](https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/3.jpeg)
+<img src="https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/1.jpeg" height="420"> <img src="https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/2.jpeg" height="420"> 
 
   
 ## Features
@@ -126,7 +125,7 @@ If you are interested to join to develop our regular Arimac Meet Web Application
 
 ## How to Contribute
 
-If you spot any bugs, please use  [Gitlab Issues]https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/issues)  or if you want to add a new feature directly   [Fork](https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/forks/new) and push to the main repo.
+If you spot any bugs, please use  [Gitlab Issues](https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/issues)  or if you want to add a new feature directly   [Fork](https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/forks/new) and push to the main repo.
 
 ## Sponsoring
 
