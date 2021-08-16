@@ -1,33 +1,35 @@
 
 # Arimac Meet Desktop Application
 
-This is the pre-built desktop application for Arimac Meet built with Electron. The screenshots of the live app are as follows:
+This is the desktop application for Arimac Meet built with Electron.  Currently we have released application versions for both Windows and Linux. The screenshots of the live app are as follows:
 
+![](https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/1.jpeg)
 
+![](https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/raw/main/resources/screenshots/3.jpeg)
 
   
 ## Features
 
--  [End-to-End Encryption](https://jitsi.org/blog/e2ee/) support (BETA)
+- [End-to-End Encryption](https://jitsi.org/blog/e2ee/) support (BETA)
 - Works with any Jitsi Meet deployment
 - Builtin auto-updates
-- ~Remote control~ (currently disabled)
+- ~~Remote control~~ (currently disabled due to [security issues](https://github.com/jitsi/security-advisories/blob/master/advisories/JSA-2020-0001.md))
 - Always-On-Top window
+- Support for deeplinks such as `arimac-meet://myroom` (will open `myroom` on the configured Arimac Meet instance) or `arimac-meet://meet.arimac.digital/myroom` (will open `myroom` on theArimac Meet instance running on `meet.arimac.digital`)
 
-- Support for deeplinks such as `arimac-meet://myroom` (will open `myroom` on the configured Jitsi instance) or `arimac-meet://arimac.mycompany.com/myroom` (will open `myroom` on the Jitsi instance running on `arimac.mycompany.com`)
+## Installation
 
-  
-## Latest Downloads
+Download **Arimac Meet** Desktop latest release and you're off to the races!
 
-| Windows | macOS | GNU/Linux (64-bit only) |
+| Windows | GNU/Linux (AppImage) | GNU/Linux (Deb) | macOS |
+| -- | -- | -- | -- |
+| [Download](https://arimaccommon.blob.core.windows.net/arimac-meet/arimac_meet_setup.exe) | [Download](https://arimaccommon.blob.core.windows.net/arimac-meet/arimac_meet_package-x86_64.AppImage) | [Download](https://arimaccommon.blob.core.windows.net/arimac-meet/arimac_meet_package-amd64.deb) | ~~Download~~ | 
 
-| -- | -- | -- |
-
-| [Download](http://tiny.cc/arimac_meet_beta_windows) | No Release | No Release |
+***NOTE:** The GNU/LInux builds are 64-bit only.*
 
 ## Development
 
-If you want to hack on this project, here is how you do it.
+If you want to hack on Arimac Meet project, here is how you do it.
 
 <details><summary>Show building instructions</summary>
 
@@ -84,17 +86,14 @@ npm run dist
 ## Known Issues
 
 ### Windows
-
 A warning will show up mentioning the app is unsigned upon first install. This is expected.
 
 ### macOS
-
 On macOS Catalina a warning will be displayed on first install. The app won't open unless "open" is pressed. This dialog is only shown once.
 
 Builtin auto-updates are not yet handled in macOS due to unsigned build.
 
 ### GNU/Linux
-
 There is a known issue which prevents the app from starting on some Linux distributions: [#231](https://github.com/jitsi/jitsi-meet-electron/issues/231)
 
 If after downloading it, you can't execute the file directly, try running `chmod u+x ./jitsi-meet-x86_64.AppImage`
@@ -119,11 +118,15 @@ sudo apt-get install libnss3
 
 </details>
 
+## Arimac Meet Web
 
+If you are interested to join to develop our regular Arimac Meet Web Application, you can simply vist following repository:
+
+[https://gitlab.com/mr_arimac/arimac-meet](https://gitlab.com/mr_arimac/arimac-meet)
 
 ## How to Contribute
 
-If you spot any bugs, please use  [Gitlab Issues](https://gitlab.com/mr_arimac/arimac-meet/-/issues)  or if you want to add a new feature directly   [Fork](https://gitlab.com/mr_arimac/arimac-meet/-/forks/new) and push to the main repo.
+If you spot any bugs, please use  [Gitlab Issues]https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/issues)  or if you want to add a new feature directly   [Fork](https://gitlab.com/mr_arimac/arimac-meet-desktop-app/-/forks/new) and push to the main repo.
 
 ## Sponsoring
 
